@@ -1,0 +1,30 @@
+.drawer {
+  height: 100vh;
+  position: sticky;
+  left: 0;
+  top: 0;
+  width: 300px;
+  box-shadow: 0 0 10px currentColor;
+  ul {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    padding: 20px 0;
+    display: flex;
+    gap: 2px;
+    list-style-type: none;
+    flex-direction: column;
+  }
+
+  a {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 0 1px currentColor;
+  }
+  a:hover {
+    box-shadow: 0 0 10px currentColor;
+    letter-spacing: 3px;
+    text-shadow: 0 0 2px currentColor;
+  }
+}
