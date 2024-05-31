@@ -1,5 +1,6 @@
+import Drawer from "@/components/drawer";
 import styles from "./page.module.scss";
 
 export default function Home() {
-  return <main className={styles.main}></main>;
+  return <h1>A demo showing use of different LLM models</h1>;
 }

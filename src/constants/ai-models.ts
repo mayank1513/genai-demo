@@ -4,3 +4,5 @@ export enum ReplicateAIModels {
   ObjRemover = "153b0087c2576ad30d8cbddb35275b387d1a6bf986bda5499948f843f6460faf",
   FaceRestorer = "297a243ce8643961d52f745f9b6c8c1bd96850a51c92be5f43628a0d3e08321a",
 }
+
+export type ModelKey = keyof typeof ReplicateAIModels;
